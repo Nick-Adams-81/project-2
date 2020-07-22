@@ -21,7 +21,7 @@ module.exports = function (app) {
   app.get("/login", function (req, res) {
     // If the user already has an account send them to the members page
     if (req.user) {
-      res.redirect("/index");
+      res.redirect("/");
     }
     res.render(path.join(__dirname, "/index"));
   });
@@ -56,6 +56,9 @@ module.exports = function (app) {
     res.render(path.join(__dirname, "../views/new-schedule.handlebars"));
   });
 
+  app.get("/new-schedule", isAuthenticated, function (req, res) {
+    res.render(path.join(__dirname, "../views/new-schedule.handlebars"));
+  });
 
 };
 

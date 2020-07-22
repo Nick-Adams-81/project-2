@@ -17,6 +17,9 @@ Now with JS Scheduler its easier than ever to manage your staffing needs!!!
 * mySql 
 * Sequelize
 
+# Deployed link
+* https://whispering-fjord-97203.herokuapp.com/
+
 # Tech solutions for a complicated business environment!
 Authored by:
 
