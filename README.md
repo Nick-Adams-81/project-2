@@ -4,6 +4,10 @@ As a manager of a company it is hard enough to manage employees schedules, chang
 and holiday requests make it dificult to keep track of it all, not anymore with JS Scheduler!
 Now with JS Scheduler its easier than ever to manage your staffing needs!!!
 
+# Getting Started
+To open this app on your local device you will nned node.js installed, once you have node.js you will 
+open the project folder in your CLI, run npm start, and the app will run on port 4000.
+
 # Tech used for JS Scheduler
 
 * html
