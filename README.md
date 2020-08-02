@@ -25,7 +25,7 @@ open the project folder in your CLI, run npm start, and the app will run on port
 * https://whispering-fjord-97203.herokuapp.com/
 
 # Tech solutions for a complicated business environment!
-Authored by:
+## Authored by:
 
 * Jake Carver
 * Yeasir Hugais
